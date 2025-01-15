@@ -185,7 +185,7 @@
                 /* Стилі для скролбару */
                 #chat-history::-webkit-scrollbar {
                   width: 10px;
-                  font-family: "Comic Neue", cursive;
+                  font-family: Passion One;
                   width: 89%;
                   /* Ширина вертикального скролбару */
                   background-color: #f1f1f1;
@@ -233,6 +233,7 @@
                   opacity: 0;
                   animation: fadeIn 0.5s forwards;
                   font-family: coconutz;
+                  font-weight: 600;
                 }
             
                 .bot-message {
@@ -250,6 +251,7 @@
                   opacity: 0;
                   animation: fadeIn 0.5s forwards;
                   font-family: coconutz;
+                  font-weight: 600;
                 }
             
                 .bot-avatar {
@@ -273,10 +275,11 @@
                   border-radius: 5px;
                   background-color: #e8f7f7;
                   color: #2a2a2a !important;
-                  font-family: "Knewave", system-ui;
+                  
                   width: 100%;
-                  font-family: "Comic Neue", cursive;
-        font-weight: 800;
+                  font-family: coconutz;
+                  font-weight: 600;
+
         font-style: normal;
                 }
             
@@ -413,7 +416,7 @@
             
                   // Блокируем кнопку отправки
                   sendButton.disabled = true;
-                  const backendUrl = 'https://moldy-back.onrender.com/chat';
+                  const backendUrl = 'https://wool-back.onrender.com/chat';
                   // const backendUrl = 'http://localhost:4000/chat';
                   const fetchPromise = fetch(backendUrl, {
                     method: 'POST',
