@@ -39,7 +39,7 @@
             children: [
               (0, r.jsx)("div", {
                 children: (0, r.jsx)(n.default, {
-                  src: "/footers/logo.svg",
+                  src: "/footers/logo.png",
                   alt: "Footer Logo",
                   width: 140,
                   height: 76,
